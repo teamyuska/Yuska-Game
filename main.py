@@ -41,26 +41,26 @@ import requests
 #warnings.filterwarnings("ignore")
 
 
-bot_adi = "@SpiderOyunBot"
+bot_adi = "@YuskaGameBot"
 
 if hex(getnode()) in ["0xdc7b23bb434e"]: #windows masaüstü pc ise veya laptop
     #kaç yaşındasın bot
     print("kyb")
     bot_adi = "@YuskaGameBot"
-    bot_token = "6093505114:AAHjdnMJWL9pKW3pf5BouHwRLwBojXsqmCE"
+    bot_token = "6856737785:AAGIXWWZjUiYxGst8x054QG6DSR1OS9DA3Q"
     bot = AsyncTeleBot(bot_token, parse_mode="html")
 else:
     #sıl octopus bot
     bot_adi = "@YuskaGameBot"
-    bot_token = "6093505114:AAHjdnMJWL9pKW3pf5BouHwRLwBojXsqmCE"
+    bot_token = "6856737785:AAGIXWWZjUiYxGst8x054QG6DSR1OS9DA3Q"
     bot = AsyncTeleBot(bot_token, parse_mode="html")
 
 temp = {}
 
 
-kurucu_id = 5637445914
+kurucu_id = 6033604536
 
-admins = [kurucu_id, 5637445914]
+admins = [kurucu_id, 6033604536]
 
 zaman_hassasiyeti = pow(10,6)
 
