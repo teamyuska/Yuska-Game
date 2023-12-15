@@ -46,12 +46,12 @@ bot_adi = "@SpiderOyunBot"
 if hex(getnode()) in ["0xdc7b23bb434e"]: #windows masaüstü pc ise veya laptop
     #kaç yaşındasın bot
     print("kyb")
-    bot_adi = "@TuranOyunBot"
+    bot_adi = "@YuskaGameBot"
     bot_token = "6093505114:AAHjdnMJWL9pKW3pf5BouHwRLwBojXsqmCE"
     bot = AsyncTeleBot(bot_token, parse_mode="html")
 else:
     #sıl octopus bot
-    bot_adi = "@TuranOyunBot"
+    bot_adi = "@YuskaGameBot"
     bot_token = "6093505114:AAHjdnMJWL9pKW3pf5BouHwRLwBojXsqmCE"
     bot = AsyncTeleBot(bot_token, parse_mode="html")
 
